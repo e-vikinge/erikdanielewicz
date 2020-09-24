@@ -175,6 +175,14 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
+
+	.GISPort {
+		text-decoration: underline;
+		text-decoration-color: blue;
+		color: blue;
+	}
+
+
 /* Container */
 
 	.container {
@@ -351,6 +359,12 @@ input, select, textarea {
 
 		.row > .col-12 {
 			width: 100%;
+		}
+
+		.row > .col-12a {
+			width: 100%;
+			text-align: center;
+			padding-bottom: 25 px;
 		}
 
 		.row > .off-12 {
